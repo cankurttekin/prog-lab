@@ -1,12 +1,12 @@
 import random
-def generate_array (n):
+def generate_array(n):
     #Generate an array with n elements.
-    arr = []
+    array = []
     for i in range (n):
-        arr.append(random.randint(0,100))
-    return arr
+        array.append(random.randint(0,100))
+    return array
 
-arr = generate_array(100)
+###########################################################
 
 def bubble_sort(array):
     #Sorts an array with Bubble Sort Algorithm
@@ -16,7 +16,7 @@ def bubble_sort(array):
                 array[j+1],array[j] = array[j],array[j+1]
     return array
 
-
+###########################################################
 
 def selection_sort(array):
     #Sorts an array with Selection Sort Algorithm
@@ -27,7 +27,8 @@ def selection_sort(array):
                 min = j
         array[i],array[min] = array[min],array[i]
 
-
+###########################################################
+        
 def search_in_array(array, item):
     #Checks if item in array
     for i in range(len(array)):
