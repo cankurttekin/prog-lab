@@ -1,0 +1,23 @@
+quiz 1–sympy
+
+SymPy library Sembolik matematik kütüphanesi
+
+factor() #çarpanlarına ayırma
+
+expand() #sadeleştirme
+
+pprint() # pretty printer
+
+subs() #değerleri değiştirme/değer atama
+
+SymPy library içinde matplotlib.pyplot #fonksiyon
+
+sqrt() #kök
+
+exp() #üstelini verir
+
+plt.show() #fonk görüntü
+
+syp.plot() #grafik
+
+sympy.plotting #çizer
