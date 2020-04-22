@@ -1,6 +1,6 @@
 #CAN KURTTEKİN
 #170401015
-
+#github: https://github.com/cankurttekin/prog-lab/blob/master/%C3%B6dev3_hafta_2.py
 import sympy as sym                 
 from sympy import Symbol
 from sympy import pprint
